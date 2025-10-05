@@ -41,6 +41,7 @@ Here is a list of the competitions I have solved. Each entry includes links to t
 
 | # | Competition Name | Problem Type | Links |
 |:-:|:---|:---|:---|
+| 1 | **[Mohs Hardness Dataset](https://www.kaggle.com/competitions/playground-series-s3e25)** | Regression | <a href="1. Regression with a Mohs Hardness Dataset/Regression with a Mohs Hardness Dataset.ipynb"><img alt="Notebook" src="https://img.shields.io/badge/Notebook-f37726?style=for-the-badge&logo=jupyter&logoColor=white"></a> <a href="https://huggingface.co/spaces/etuncer/mohs-hardness-prediction-kaggle"><img alt="Live App" src="https://img.shields.io/badge/Live%20App-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white"></a> |
 
 ---
 
