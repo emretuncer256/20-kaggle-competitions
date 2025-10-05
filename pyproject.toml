@@ -1,7 +1,7 @@
 [project]
 name = "20-kaggle-competitions"
 version = "0.1.0"
-description = ""
+description = "A portfolio of end-to-end solutions for 20 Kaggle machine learning competitions, from EDA to deployed models."
 authors = [
     {name = "Emre Tuncer",email = "emretuncer.developer@gmail.com"}
 ]
