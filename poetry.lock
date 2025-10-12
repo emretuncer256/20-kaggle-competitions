@@ -2063,6 +2063,29 @@ files = [
 ]
 
 [[package]]
+name = "miceforest"
+version = "6.0.3"
+description = "Multiple Imputation by Chained Equations with LightGBM"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "miceforest-6.0.3-py3-none-any.whl", hash = "sha256:a5a176391bda6348f4ebafeb99071989918ddd4a6dff47378aac5e5c36127b9c"},
+    {file = "miceforest-6.0.3.tar.gz", hash = "sha256:e1f585f8b45332bc6d04ee35a157a3b1b64563e0391171e97fd6a8081968063c"},
+]
+
+[package.dependencies]
+lightgbm = ">=4.1.0"
+numpy = "*"
+pandas = ">=2.1.0"
+pyarrow = ">=6.0.1"
+scipy = ">=1.6.0"
+
+[package.extras]
+pipeline = ["scikit-learn (!=0.22.0)"]
+plotting = ["matplotlib (>=3.3.0)", "plotnine (>=0.13.6)"]
+
+[[package]]
 name = "mistune"
 version = "3.1.4"
 description = "A sane and fast Markdown parser with useful plugins and renderers"
@@ -4680,4 +4703,4 @@ scikit-learn = ["scikit-learn"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11"
-content-hash = "7711fa884d303fe840f5de750277ac38662aaf08b6e17dc0189ed610f606b384"
+content-hash = "fc95b1dff8bed64e69296eee299ec71426bbad19711eceea431f897ba59595b2"
