@@ -830,25 +830,11 @@ woff = ["brotli (>=1.0.1) ; platform_python_implementation == \"CPython\"", "bro
 
 [[package]]
 name = "fqdn"
-version = "1.4.0"
-description = "Validate fully-qualified domain names compliant to RFC 1035 and the preferred form in RFC 3686 s. 2."
-optional = false
-python-versions = "*"
-groups = ["main"]
-markers = "python_version >= \"3.14\""
-files = [
-    {file = "fqdn-1.4.0-py3-none-any.whl", hash = "sha256:e935616ae81c9c60a22267593fe8e6af68cecc68549cc71bb9bfbcbbcb383386"},
-    {file = "fqdn-1.4.0.tar.gz", hash = "sha256:30e8f2e685ce87cdace4712fd97c5d09f5e6fa519bbb66e8f188f6a7cb3a5c4e"},
-]
-
-[[package]]
-name = "fqdn"
 version = "1.5.1"
 description = "Validates fully-qualified domain names against RFC 1123, so that they are acceptable to modern bowsers"
 optional = false
 python-versions = ">=2.7, !=3.0, !=3.1, !=3.2, !=3.3, !=3.4, <4"
 groups = ["main"]
-markers = "python_version < \"3.14\""
 files = [
     {file = "fqdn-1.5.1-py3-none-any.whl", hash = "sha256:3a179af3761e4df6eb2e026ff9e1a3033d3587bf980a0b1b2e1e5d08d7358014"},
     {file = "fqdn-1.5.1.tar.gz", hash = "sha256:105ed3677e767fb5ca086a0c1f4bb66ebc3c100be518f0e0d755d9eae164d89f"},
@@ -4700,7 +4686,26 @@ plotting = ["graphviz", "matplotlib"]
 pyspark = ["cloudpickle", "pyspark", "scikit-learn"]
 scikit-learn = ["scikit-learn"]
 
+[[package]]
+name = "yellowbrick"
+version = "1.5"
+description = "A suite of visual analysis and diagnostic tools for machine learning."
+optional = false
+python-versions = ">=3.4, <4"
+groups = ["main"]
+files = [
+    {file = "yellowbrick-1.5-py3-none-any.whl", hash = "sha256:4bb2895cecf94a0e736398bbac6c5d72032ba3ff2273f49df660b14ef419305d"},
+    {file = "yellowbrick-1.5.tar.gz", hash = "sha256:99a6336dd2e7ce586a8cde67966b79c51b479d3759f3c083d7e19ffe949f6076"},
+]
+
+[package.dependencies]
+cycler = ">=0.10.0"
+matplotlib = ">=2.0.2,<3.0.0 || >3.0.0"
+numpy = ">=1.16.0"
+scikit-learn = ">=1.0.0"
+scipy = ">=1.0.0"
+
 [metadata]
 lock-version = "2.1"
-python-versions = ">=3.11"
-content-hash = "fc95b1dff8bed64e69296eee299ec71426bbad19711eceea431f897ba59595b2"
+python-versions = ">=3.11,<4"
+content-hash = "08f95446e3a1760bec6f6e39d4b1740a4f648374d63902071afbe6b61b3b0611"
