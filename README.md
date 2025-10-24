@@ -66,5 +66,3 @@ Here is a list of the competitions I have solved. Each entry includes links to t
 
 ### Contact
 For questions or suggestions, please open an issue or reach out to my social accounts via my GitHub profile.
-
-This README will evolve as new competition solutions are added.
